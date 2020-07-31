@@ -14,6 +14,23 @@ entries:
       name: Rita Zhang
     name: secrets-store-csi-driver
     sources:
+    - https://github.com/fernandosilvacornejo/secrets-store-csi-driver
+    urls:
+    - https://raw.githubusercontent.com/fernandosilvacornejo/secrets-store-csi-driver/conectter/charts/secrets-store-csi-driver-0.0.12-conectter.tgz
+    version: 0.0.12-conectter
+  - apiVersion: v1
+    appVersion: 0.0.12
+    created: "2020-07-21T17:21:06.530228-07:00"
+    description: A Helm chart to install the SecretsStore CSI Driver inside a Kubernetes
+      cluster.
+    digest: 0c132d4be8c4eb48109a4fe8cc0ce29e6fc9f68647bb522c4040d033861a0e78
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    kubeVersion: '>=1.15.0-0'
+    maintainers:
+    - email: ritazh@microsoft.com
+      name: Rita Zhang
+    name: secrets-store-csi-driver
+    sources:
     - https://github.com/kubernetes-sigs/secrets-store-csi-driver
     urls:
     - https://raw.githubusercontent.com/kubernetes-sigs/secrets-store-csi-driver/master/charts/secrets-store-csi-driver-0.0.12.tgz
